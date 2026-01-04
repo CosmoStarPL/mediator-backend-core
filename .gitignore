@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+.idea
+ai_backend.iml
+
+
 # C extensions
 *.so
 
