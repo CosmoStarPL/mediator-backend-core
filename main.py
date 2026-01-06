@@ -91,21 +91,6 @@ async def root_greeting():
                     "path": "/models/copy",
                     "method": "POST",
                     "description": "Creates a copy of an existing model"
-                },
-                {
-                    "path": "/models/tags",
-                    "method": "GET",
-                    "description": "Lists all available model tags"
-                },
-                {
-                    "path": "/system/ps",
-                    "method": "GET",
-                    "description": "Shows running inference processes and model usage"
-                },
-                {
-                    "path": "/system/version",
-                    "method": "GET",
-                    "description": "Returns engine and API version information"
                 }
             ]
         },

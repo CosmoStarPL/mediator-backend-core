@@ -2,7 +2,7 @@ from fastapi import Request
 from fastapi.responses import JSONResponse
 
 API_KEYS = {
-    "six_seven": {"client": "test", "role": "DEV"},
+    "six_seven": {"client": "test", "role": "OP"},
     "forty_one": {"client": "test", "role": "DEV"},
     "nonchalant": {"client": "frontend", "role": "USER"},
     "anime_tyanka": {"client": "bot", "role": "OP"},
